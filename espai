@@ -1,0 +1,13 @@
+float x= random(500);
+float y= random(500);
+
+void setup(){
+size (500,500);
+background (0);
+}
+void draw(){
+ellipse (int(x),int(y),2,2);
+x=random(500);
+y=random(500);
+}
+  
